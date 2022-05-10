@@ -811,18 +811,17 @@ body {
 .address__item:nth-child(-n+2) {
   margin-bottom: 9px;
 }
+.address__item:first-child .address__link {
+  color: var(--light-color);
+}
 
-.address__link {
+.address__item .address__link {
   color: var(--light-alfa-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
-
-.link--white {
-  color: var(--light-color);
 }
 
 .footer__soc {

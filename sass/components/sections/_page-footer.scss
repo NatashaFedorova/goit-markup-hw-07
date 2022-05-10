@@ -16,16 +16,18 @@
 .footer__logo {
   margin-bottom: 20px;
 }
-.address__item:nth-child(-n + 2) {
-  margin-bottom: 9px;
+.address__item {
+  &:nth-child(-n + 2) {
+    margin-bottom: 9px;
+  }
+  &:first-child .address__link {
+    color: var(--light-color);
+  }
 }
-.address__link {
+.address__item .address__link {
   color: var(--light-alfa-color);
   font-style: normal;
   @include font(400, 14px, 1.71, 0.03em);
-}
-.link--white {
-  color: var(--light-color);
 }
 
 // soc ===================================
