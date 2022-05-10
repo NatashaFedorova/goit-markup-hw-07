@@ -10,39 +10,32 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="stylesheet" href="./prettierrs/prettierrs.json" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>portfolio</title>
   </head>
   <body>
     <header class="page-header">
-      <div class="page-header__container container">
+      <div class="container">
         <a class="page-header__logo logo logo--link" href="./index.html" lang="en"
           >Web<span class="logo__dark-part">Studio</span></a
         >
         <nav class="nav">
           <ul class="nav__list list">
-            <li class="nav__item item">
+            <li class="nav__item">
               <a class="nav__link link" href="./index.html">Студия</a>
             </li>
-            <li class="nav__item item">
+            <li class="nav__item">
               <a class="nav__link link link--active" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="nav__item item">
+            <li class="nav__item">
               <a class="nav__link link" href="#contacts">Контакты</a>
             </li>
           </ul>
         </nav>
         <!-- contacts -->
         <ul class="contacts-list list">
-          <li class="contacts-list__item item">
+          <li class="contacts-list__item">
             <a
               class="contacts-list__link link"
               href="mailto:info@devstudio.com"
@@ -54,7 +47,7 @@
               info@devstudio.com</a
             >
           </li>
-          <li class="contacts-list__item item">
+          <li class="contacts-list__item">
             <a class="contacts-list__link link" href="tel:+380961111111" title="позвонить"
               ><svg class="contacts-list__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use></svg
@@ -66,27 +59,27 @@
     </header>
     <main>
       <section class="portfolio section">
-        <div class="portfolio__container container">
+        <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
           <ul class="filter__list list">
-            <li class="filter__item item">
+            <li class="filter__item">
               <button class="filter__button button" type="button">Все</button>
             </li>
-            <li class="filter__item item">
+            <li class="filter__item">
               <button class="filter__button button" type="button">Веб-сайты</button>
             </li>
-            <li class="filter__item item">
+            <li class="filter__item">
               <button class="filter__button button" type="button">Приложения</button>
             </li>
-            <li class="filter__item item">
+            <li class="filter__item">
               <button class="filter__button button" type="button">Дизайн</button>
             </li>
-            <li class="filter__item item">
+            <li class="filter__item">
               <button class="filter__button button" type="button">Маркетинг</button>
             </li>
           </ul>
           <ul class="exsample__list list">
-            <li class="example__item item">
+            <li class="example__item">
               <a class="example__link link" href="./portfolio.html">
                 <div class="example__top-thumb">
                   <img
@@ -110,7 +103,7 @@
                 </div>
               </a>
             </li>
-            <li class="example__item item">
+            <li class="example__item">
               <a class="example__link link" href="./portfolio.html">
                 <div class="example__top-thumb">
                   <img
@@ -129,14 +122,14 @@
                   </div>
                 </div>
                 <div class="example__bottom-thumb">
-                  <h2 class="example__title title">
+                  <h2 class="example__title">
                     Постер <span lang="en">New Orlean vs Golden Star</span>
                   </h2>
                   <p class="example__bottom-title text">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="example__item item">
+            <li class="example__item">
               <a class="example__link link" href="./portfolio.html">
                 <div class="example__top-thumb">
                   <img
@@ -160,7 +153,7 @@
                 </div></a
               >
             </li>
-            <li class="example__item item">
+            <li class="example__item">
               <a class="example__link link" href="./portfolio.html">
                 <div class="example__top-thumb">
                   <img
@@ -184,7 +177,7 @@
                 </div></a
               >
             </li>
-            <li class="example__item item">
+            <li class="example__item">
               <a class="example__link link" href="./portfolio.html"
                 ><div class="example__top-thumb">
                   <img
@@ -208,7 +201,7 @@
                 </div></a
               >
             </li>
-            <li class="example__item item">
+            <li class="example__item">
               <a class="example__link link" href="./portfolio.html"
                 ><div class="example__top-thumb">
                   <img
@@ -232,7 +225,7 @@
                 </div></a
               >
             </li>
-            <li class="example__item item">
+            <li class="example__item">
               <a class="example__link link" href="./portfolio.html">
                 <div class="example__top-thumb">
                   <img
@@ -258,7 +251,7 @@
                 </div></a
               >
             </li>
-            <li class="example__item item">
+            <li class="example__item">
               <a class="example__link link" href="./portfolio.html"
                 ><div class="example__top-thumb">
                   <img
@@ -278,13 +271,13 @@
                 </div>
                 <div class="example__bottom-thumb">
                   <h2 class="example__title title">
-                    Проект <span class="example__abbr" lang="en">LAB</span>
+                    Проект <abbr class="example__abbr" lang="en">Lab</abbr>
                   </h2>
                   <p class="example__bottom-title text">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="example__item item">
+            <li class="example__item">
               <a class="example__link link" href="./portfolio.html"
                 ><div class="example__top-thumb">
                   <img
